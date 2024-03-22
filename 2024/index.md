@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 ---
 
 # Long-Term Perception for Autonomy in Dynamic Human-shared Environments: What Do Robots Need?
