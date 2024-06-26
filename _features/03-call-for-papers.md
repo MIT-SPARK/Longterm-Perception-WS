@@ -1,0 +1,10 @@
+---
+id: Overview
+name: Overview
+heading: Overview
+div_class: lead
+# subheading: Will Catch Your Eye
+# image: "http://placehold.it/500x500"
+---
+
+This workshop aims to bring together researchers across the robotics, computer vision, and machine learning communities to discuss the unique challenges and opportunities in long-term perception for autonomy in human-centric environments. We aim to present the latest advances and emerging techniques, to identify the core challenges in human-centric scenes — which are highly complex, semantically rich, distinctly dynamic and subject to constant change — and to set the direction of research to address them in the coming years. Recent advancements are presented through a series of invited and contributed talks by distinguished leading researchers from academia and industry. The workshop discusses the pressing questions and tensions in the field — End-to-end learned vs. geometry-based?  Maps vs. mapless? High-fidelity vs. scalability? Dense vs. symbolic? Safety vs. performance? Foundation models vs. on-domain learning? — In short: What do robots really need from perception solutions for effective and safe long-term autonomy around and with humans? To encourage interaction among all participants, the workshop features a poster and demos session, spotlight talks, and an interactive discussion session, connecting invited speakers, contributors, organizers, and attendees in smaller groups for an open-ended guided in-depth discussion. All talks and accepted contributions are published on the workshop's webpage to expand its reach and impact. A best presentation award and support for underrepresented student researchers is sponsored by Amazon. This workshop builds on the success of our previous popular workshops in perception and mapping at IROS’23 and ICRA’22, but with a distinct focus on dynamic human-centric environments to enable long-term robot autonomy.

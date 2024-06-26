@@ -1,0 +1,18 @@
+<section class="team" id="team">
+  <div class="container">
+    <div class="row row-centered">
+      {% for member in site.data.organizers %}
+      <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 col-centered">
+        <div class="box">
+          <div class="image">
+            <img src="{{ member.image | absolute_url }}" alt="{{ member.name }}" class="img-responsive">
+          </div>
+          <h3><a href="{{ member.web }}" target="_blank">{{ member.name }}</a></h3>
+          <!-- <h4>{{ member.position }}</h4> -->
+          <p>{{ member.affiliation }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

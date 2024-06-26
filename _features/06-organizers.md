@@ -6,4 +6,4 @@ heading: Organizers
 # image: "http://placehold.it/500x500"
 ---
 
-{% include people.html %}
+{% include organizers.html %}
