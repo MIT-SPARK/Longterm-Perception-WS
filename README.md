@@ -1,2 +1,5 @@
-# Longterm-Perception-WS
-Website for the workshop on "Long-term Perception for Autonomy in Dynamic Human-shared Environments: What do Robots Need?".
+# RSS-workshop-website
+
+# To-Do
+* Cover picture for the tutorial, related to RSS2020
+* Change topic titles for each of the presentations

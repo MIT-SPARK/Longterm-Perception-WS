@@ -1,6 +1,36 @@
-# title: "Long-Term Perception for Autonomy in Dynamic Human-shared Environments: What Do Robots Need?"
-# description: "Informaton about our workshop on 'Long-Term Perception for Autonomy in Dynamic Human-shared Environments: What Do Robots Need?'"
-# sitename: Longterm-Perception-WS/2024
-# baseurl: "/Longterm-Perception-WS/2024"
-# url: "https://mit-spark.github.io"
-theme: minima #jekyll-theme-minimal
+title: "Long-Term Perception for Autonomy in Dynamic Human-shared Environments: What Do Robots Need?"
+description: Title
+sitename: Longterm-Perception-WS@IROS2024
+baseurl: "/Longterm-Perception-WS"
+url: "https://mit-spark.github.io"
+
+# Scholar
+# ========================================================================================
+scholar:
+  style: apa
+  locale: en
+  sort_by: year, month
+  order: descending
+  source: ./
+  bibliography: resources.bib
+  bibliography_template: bib
+  replace_strings: true
+  join_strings: false
+  query: "@*"
+
+plugins:
+  - jekyll/scholar
+
+sass:
+  sass_dir: /assets/_sass
+  style: :compressed
+collections:
+  - features
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE.txt
+  - CNAME
+  - Makefile
+  - resources.bib
