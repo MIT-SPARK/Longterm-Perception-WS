@@ -1,0 +1,31 @@
+- name: Iro Armeni 
+  image: /assets/images/iro.png
+  web: https://ir0.github.io/
+  position: Assistant Professor
+  affiliation: Stanford University
+
+- name: Stefan Leutenegger
+  image: /assets/images/stefan.jpeg
+  web: https://www.professoren.tum.de/en/leutenegger-stefan
+  position: Assistant Professor
+  affiliation: Technical University of Munich
+  
+- name: Michael Milford
+  image: /assets/images/michael.jpg
+  web: https://www.qut.edu.au/about/our-people/academic-profiles/michael.milford
+  position: Professor
+  affiliation: Queensland University of Technology
+
+- name: Marc Pollefeys
+  image: /assets/images/marc.jpg
+  web: https://people.inf.ethz.ch/marc.pollefeys/
+  position: Professor
+  affiliation: ETH Zurich, Microsoft
+
+- name: Jen Jen Chung
+  image: /assets/images/Jen.jpeg
+  web: https://jenjenchung.github.io/anthropomorphic/
+  position: Associate Professor
+  affiliation: The University of Queensland
+
+
