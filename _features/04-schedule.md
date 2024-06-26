@@ -6,13 +6,24 @@ div_class: lead
 # subheading: Will Seal the Deal.
 ---
 
-| Time   |      Topic (with slides)      |  Speaker |
-|:-----------:|:-----------------------------------------------------:|:------:|
-| 10:00-10:10 |  [Arrival and Welcome](https://www.dropbox.com/s/ptul3xm83vyzyko/welcome_intro_Carlone.pdf?dl=0) |  |
-| 10:10-10:45 |  [An Introduction to Global Optimization, Convex Relaxations and Strong Duality](https://www.dropbox.com/s/c5kmr5p68a9xklo/Intro_Global_Optimization_Convex_Relaxation_Duality_Eriksson.pdf?dl=0)   | [Anders Eriksson](http://aeriksson.net) |
-| 10:45-10:55 | Break | |
-| 10:55-11:30 | [Convex Relaxations for Certifiable Perception: Fast and Exact Global Optimality](https://www.dropbox.com/s/jdlf2yegxkud8u9/convex_relaxation_Carlone.pdf?dl=0) | [Luca Carlone](https://lucacarlone.mit.edu)  |
-| 11:30-11:40 | Break |   |
-| 11:40-12:15 | [Outlier-Robust Geometric Understanding: Algorithms and Provable Guarantees](https://www.dropbox.com/s/x2gmwnj6duwkkc6/Outlier_Robust_Algorithms_Guarantees_RSS2020WS_Chin.pdf?dl=0) |  [Tat-Jun Chin](https://cs.adelaide.edu.au/~tjchin/doku.php)  |
-| 12:15-12:25 | Break | |
-| 12:25-13:00 | [Certifiably Robust Geometric Perception with Outliers](https://www.dropbox.com/s/va7et1eiovsbnow/Certifiably_Robust_Perception_RSS2020WS_Yang.pdf?dl=0) | [Heng Yang](https://hankyang.mit.edu) |
+<table>
+  <thead>
+    <tr>
+      <th style="width: 15%;">Time</th>
+      <th style="width: 45%;">Talk</th>
+      <th style="width: 40%;">Comments</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>8:30-8:40</td><td>Welcome Remarks</td><td>Organizing Committee</td></tr>
+    <tr><td>8:40-9:05</td><td>Plenary 1</td><td><a href="https://ir0.github.io/">Iro Armeni (Stanford)</a></td></tr>
+    <tr><td>9:05-9:30</td><td>Plenary 2</td><td><a href="https://www.professoren.tum.de/en/leutenegger-stefan">Stefan Leutenegger (TUM)</a></td></tr>
+    <tr><td>9:30-9:55</td><td>Plenary 3</td><td><a href="https://www.qut.edu.au/about/our-people/academic-profiles/michael.milford">Michael Milford (QUT)</a></td></tr>
+    <tr><td>9:55-10:15</td><td>Spotlight Talks</td><td>Presentations of award finalists selected from the submission to the workshop</td></tr>
+    <tr><td>10:15-11:00</td><td>Coffee Break & Poster + Demo Session</td><td>Accepted posters and demos</td></tr>
+    <tr><td>11:00-11:25</td><td>Plenary 4</td><td><a href="https://people.inf.ethz.ch/marc.pollefeys/">Marc Pollefeys (Microsoft and ETH)</a></td></tr>
+    <tr><td>11:25-11:50</td><td>Plenary 5</td><td><a href="https://eecs.uq.edu.au/profile/8084/jen-jen-chung">Jen Jen Chung (UQ)</a></td></tr>
+    <tr><td>11:50-12:20</td><td>Interactive Discussion</td><td>Guided group discussions of mixed groups consisting of invited speakers, organizers, junior researchers with posters, and other attendees.</td></tr>
+    <tr><td>12:20-12:30</td><td>Closing Remarks</td><td>Organizing Committee</td></tr>
+  </tbody>
+</table>
