@@ -16,7 +16,7 @@ We invite short papers of novel or recently published research relevant to the t
 * Submissions are single blind and will be reviewed by members of the (extended) workshop committee.
 * Submissions can optionally be accompanied by a video.
 
-<div style="height: 20px;"></div> 
+<div style="height: 10px;"></div> 
 
 
 ### <strong>Review Criteria</strong>
@@ -30,17 +30,17 @@ Novel submission will be evaluated on:
 
 Papers that have previously been published will mainly be evaluated on the first two points (relevance and recency). If so, please mention in the submission where it has been published.
 
-<div style="height: 20px;"></div> 
+<div style="height: 10px;"></div> 
 
 
 ### <strong>Call for Demonstrations</strong>
 We invite live demonstrations during the poster session. These can either accompany a submitted paper or be standalone. For standalone demonstrations, please submit an up to two pages description and/or video of the demo. Demos will be evaluated on recency and relevance to the workshop.
 
-<div style="height: 20px;"></div> 
+<div style="height: 10px;"></div> 
 
 ### <strong>Submissions Timeline</strong>
 
-<div style="height: 20px;"></div> 
+<div style="height: 10px;"></div> 
 
 |----------------|------------------------------|
 | July 1         | Call for submissions         |
