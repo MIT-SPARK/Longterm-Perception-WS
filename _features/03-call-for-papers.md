@@ -39,7 +39,7 @@ We invite live demonstrations during the poster session. These can either accomp
 <div style="height: 10px;"></div> 
 
 ### <strong>Submissions Portal</strong>
-Please submit your paper via [CMT](https://cmt3.research.microsoft.com/IROSLTP2024/Track/1/Submission/Create)
+Please submit your paper via [CMT](https://cmt3.research.microsoft.com/IROSLTP2024/Track/1/Submission/Create).
 
 <div style="height: 10px;"></div> 
 
