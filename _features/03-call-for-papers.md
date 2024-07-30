@@ -1,5 +1,5 @@
 ---
-id: Call for Papers
+id: call-for-papers
 name: Call for Papers
 heading: Call for Papers
 div_class: lead
@@ -18,6 +18,15 @@ We invite short papers of novel or recently published research relevant to the t
 
 <div style="height: 10px;"></div> 
 
+### <strong>Invited topics</strong>
+We invite contributions from the areas of:
+* Scene and object representations
+* Long-term mapping and scene understanding
+* Open-set scene understanding and foundation models
+* Motion and change detection
+* Prediction and planning in dynamic and changing scenes
+* Safety in perception, planning and prediction
+* Continual and lifelong learning
 
 ### <strong>Review Criteria</strong>
 
