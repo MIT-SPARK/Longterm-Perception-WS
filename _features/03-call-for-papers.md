@@ -60,6 +60,6 @@ Please submit your paper via [CMT](https://cmt3.research.microsoft.com/IROSLTP20
 | July 1         | Call for submissions         |
 | September 1    | Submissions due              |
 | September 30   | Notification of acceptance   |
-| October 15     | Workshop at IROS!            |
+| October 14     | Workshop at IROS!            |
 
 <!-- <strong>Submission Website:</strong> TBD -->
