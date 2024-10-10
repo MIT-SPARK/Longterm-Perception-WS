@@ -18,7 +18,7 @@ div_class: lead
     <tr><td>14:00-14:10</td><td><strong>Welcome Remarks</strong></td><td>Organizing Committee</td></tr>
     <tr><td>14:10-14:35</td><td><strong>Plenary 1</strong>: Trusted and introspective positioning systems for people and their machines</td><td><a href="https://www.qut.edu.au/about/our-people/academic-profiles/michael.milford">Michael Milford (QUT)</a></td></tr>
     <tr><td>14:35-15:00</td><td><strong>Plenary 2</strong>: The coupling of perception and interaction for object discovery and understanding</td><td><a href="https://jenjenchung.github.io/anthropomorphic/">Jen Jen Chung (UQ)</a> & <a href="https://www.linkedin.com/in/francesco-milano-ba5483132/?originalSubdomain=ch">Francesco Milano (ETH) </a></td></tr>
-    <tr><td>15:00-15:25</td><td><strong>Plenary 3</strong>: Safe autonomous mobile robots around humans</td><td><a href="https://www.professoren.tum.de/en/leutenegger-stefan">Stefan Leutenegger (TUM)</a></td></tr>
+    <tr><td>15:00-15:25</td><td><strong>Plenary 3</strong>: State estimation and 3D scene understanding for mobile robots</td><td><a href="https://www.professoren.tum.de/en/leutenegger-stefan">Stefan Leutenegger (TUM)</a></td></tr>
     <tr><td>15:25-15:45</td><td><strong>Spotlight Talks</strong></td><td>Presentations of award finalists selected from the submission to the workshop</td></tr>
     <tr><td></td><td>Moving Object Segmentation in Point Cloud Data using Hidden Markov Models</td><td>Vedant Bhandari, Jasmin James, Tyson Phillips, and Ross McAree</td></tr>
     <tr><td></td><td>Taxonomy-Aware Class-Incremental Semantic Segmentation for Open-World Perception</td><td>Julia Hindel, Daniele Cattaneo, and Abhinav Valada</td></tr>
