@@ -79,6 +79,7 @@ div_class: lead
 
 
     <strong>Integrating Vision Foundation Models with Reinforcement Learning for Enhanced Object Interaction</strong> 
+    <br>
     <a href="assets/proceedings/integ/paper.pdf" style="text-decoration: none; color: #007bff;">[Paper]</a> 
     <a href="assets/proceedings/integ/poster.pdf" style="text-decoration: none; color: #007bff;">[Poster]</a><br>
     Ahmad Farooq and Kamran Iqbal<br>
