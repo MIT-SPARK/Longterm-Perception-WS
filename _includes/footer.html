@@ -1,7 +1,15 @@
+{% assign ed = page.edition | default: 'latest' %}
+{%- capture sitename -%}
+  {%- if ed == '2024_IROS' -%}Longterm-Perception@IROS2024
+  {%- elsif ed == '2025_ICRA' -%}Longterm-Perception@ICRA2025
+  {%- else -%}{{ site.sitename | default: site.title }}
+  {%- endif -%}
+{%- endcapture -%}
+
 <footer>
   <div class='row'>
     <div class='col-lg-12'>
-      <p>Copyright &copy; {{ site.sitename }} </p>
+      <p>Copyright &copy; {{ sitename }} </p>
     </div>
   </div>
 </footer>

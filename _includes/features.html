@@ -1,17 +1,22 @@
-<main>
-  {% for feature in site.features %}
-    {% if feature.id %}
-      
-      <hr id='{{ feature.id }}'>
+{% assign ed = page.edition | default: 'latest' %}
+{% assign feats = site.features | where_exp: "f", "f.relative_path contains ed" %}
 
-      <section id='section-{{ feature.id }}'>
-        {% if my_variable != blank %}
-        <img class='{% cycle 'pull-right', 'pull-left' %}' src='{{ feature.image }}'>
-        {% endif %}
-        <a id="{{ feature.id }}"></a>
-        <h2>{{ feature.heading }}<br /><span>{{ feature.subheading }}</span></h2>
-        <div {% if feature.div_class != nil And feature.div_class != "" %} class='{{feature.div_class}}' {% endif %}>{{ feature.content }}</div>
-      </section>
+<main>
+  {% for feature in feats %}
+    {% if feature.id %}
+      {% unless feature.relative_path contains '/not_needed/'  %}
+      
+        <hr id='{{ feature.id }}'>
+
+        <section id='section-{{ feature.id }}'>
+          {% if my_variable != blank %}
+          <img class='{% cycle 'pull-right', 'pull-left' %}' src='{{ feature.image }}'>
+          {% endif %}
+          <a id="{{ feature.id }}"></a>
+          <h2>{{ feature.heading }}<br /><span>{{ feature.subheading }}</span></h2>
+          <div {% if feature.div_class != nil And feature.div_class != "" %} class='{{feature.div_class}}' {% endif %}>{{ feature.content }}</div>
+        </section>
+      {% endunless %}
     {% endif %}
   {% endfor %}
 

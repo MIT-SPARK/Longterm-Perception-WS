@@ -1,0 +1,60 @@
+- name: Lukas Schmid
+  image: /assets/images/lukas.png
+  web: https://schmluk.github.io/
+  position: Postdoctoral Research Fellow
+  affiliation: Massachusetts Institute of Technology
+
+- name: Luca Carlone
+  image: /assets/images/luca.png
+  web: https://lucacarlone.mit.edu/
+  position: Associate Professor
+  affiliation: Massachusetts Institute of Technology
+  
+- name: Roland Siegwart
+  image: /assets/images/roland.png
+  web: https://asl.ethz.ch/the-lab/people/person-detail.Mjk5ODE=.TGlzdC8yMDI4LDEyMDExMzk5Mjg=.html
+  position: Full Professor
+  affiliation: ETH Zurich
+
+- name: Rajat Talak
+  image: /assets/images/rajat.jpg
+  web: https://www.rajattalak.com/
+  position: Research Scientist
+  affiliation: Massachusetts Institute of Technology  
+
+- name: Olov Anderson
+  image: /assets/images/olovand.png
+  web: https://www.kth.se/profile/olovand
+  position: Assistant Professor
+  affiliation: KTH Royal Institute of Technology
+
+- name: Helen Oleynikova
+  image: /assets/images/helen.jpg
+  web: https://helenol.github.io/
+  position: Senior Researcher
+  affiliation: ETH Zurich
+
+- name: Jong Jin Park
+  image: /assets/images/jongjin.png
+  web: https://www.linkedin.com/in/jong-jin-park-b4885920?original_referer=https%3A%2F%2Fwww.google.com%2F
+  position: Principal Applied Scientist
+  affiliation: Amazon Lab126
+
+- name: Jianhao Zheng
+  image: /assets/images/jianhao.png
+  web: https://jianhao-zheng.github.io/
+  position: Ph.D. Student
+  affiliation: Stanford University
+
+- name: Johanna Wald
+  image: /assets/images/johanna.png
+  web: https://www.linkedin.com/in/waldj/
+  position: AR Software Engineer
+  affiliation: Google
+
+- name: Federico Tombari
+  image: /assets/images/federico.png
+  web: https://federicotombari.github.io/
+  position: Senior Staff Research Scientist and Manager
+  affiliation: Google, Technical University of Munich
+

@@ -3,6 +3,7 @@ id: Schedule
 name: Schedule
 heading: Schedule
 div_class: lead
+edition: 2024_IROS
 # subheading: Will Seal the Deal.
 ---
 

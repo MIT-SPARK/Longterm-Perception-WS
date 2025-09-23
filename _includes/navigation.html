@@ -1,3 +1,52 @@
+{% assign ed = page.edition | default: 'latest' %}
+{% assign feats = site.features | where_exp: "f", "f.relative_path contains ed" %}
+{% assign feats = feats | sort: "weight" %}
+
+{%- comment -%}
+  Determine site name based on edition
+{%- endcomment -%}
+{%- capture sitetitle -%}
+  {%- if ed == '2024_IROS' -%}Longterm-Perception@IROS2024
+  {%- elsif ed == '2025_ICRA' -%}Longterm-Perception@ICRA2025
+  {%- else -%}{{ site.sitename | default: site.title }}
+  {%- endif -%}
+{%- endcapture -%}
+
+<style>
+  /* layout helpers (yours) */
+  .nav-row { display:flex; flex-wrap:wrap; align-items:center; gap:12px; margin:4px 0; }
+  .editions-nav, .features-nav { list-style:none; margin:0; padding:0; display:flex; gap:12px; }
+  .nav-top .editions-nav { margin-left:auto; }
+
+  /* make the site title largest */
+  nav .navbar-brand {
+    font-size: clamp(22px, 2.2vw + 0.5rem, 34px);
+    font-weight: 800;
+    line-height: 1.1;
+    margin-right: 12px;
+  }
+
+  /* edition links = second largest */
+  nav .editions-nav a {
+    font-size: clamp(20px, 1.1vw + 0.25rem, 26px);
+    font-weight: 600;
+    line-height: 1.2;
+  }
+
+  /* keep feature links at current size (inherit) */
+  nav .features-nav a {
+    font-size: clamp(14px, 1.1vw + 0.25rem, 18px);         /* no change */
+    font-weight: 500;         
+  }
+
+  /* tiny tweak for very small screens */
+  @media (max-width: 640px) {
+    nav .navbar-brand { font-size: 22px; }
+    nav .editions-nav a { font-size: 16px; }
+  }
+</style>
+
+
 <nav role='navigation'>
   <div class='container'>
 
@@ -8,18 +57,40 @@
         <span class='icon-bar'></span>
         <span class='icon-bar'></span>
       </button>
-      <a class='navbar-brand' href='#'>{{ site.sitename }}</a>
     </div>
 
-    <div id='menu'>
-      <ul>
-        {% for feature in site.features %}
-        <li>
-          <a href='#{{ feature.id }}'>{{ feature.name }}</a>
-        </li>
-        {% endfor %}
-      </ul>
+    <div id='menu' class='collapse'>
+
+      <!-- Row 1: site name + edition switches -->
+      <div class='nav-row nav-top'>
+        <a class='navbar-brand' href='#'>{{ sitetitle | strip }}</a>
+        <ul class='nav editions-nav'>
+          <li><a href='{{ site.baseurl }}/'>Latest</a></li>
+          <li><a href='{{ site.baseurl }}/2024_IROS/'>IROS 2024</a></li>
+        </ul>
+      </div>
+
+      <!-- Row 2: sections for current edition -->
+      <div class='nav-row nav-features'>
+        <ul class='nav features-nav'>
+          {% for feature in feats %}
+            {% unless feature.relative_path contains '/not_needed/'  %}
+              <li>
+                <a href='#{{ feature.id }}'>{{ feature.name }}</a>
+              </li>
+            {% endunless %}
+          {% endfor %}
+        </ul>
+      </div>
+
     </div>
 
   </div>
 </nav>
+
+<style>
+  /* optional, tiny layout helpers */
+  .nav-row { display:flex; flex-wrap:wrap; align-items:center; gap:12px; margin:4px 0; }
+  .editions-nav, .features-nav { list-style:none; margin:0; padding:0; display:flex; gap:12px; }
+  .nav-top .editions-nav { margin-left:auto; }
+</style>

@@ -3,6 +3,7 @@ id: event-pic
 name: Event Pictures
 heading: Event Pictures
 div_class: lead
+edition: 2024_IROS
 # subheading: Will Catch Your Eye
 # image: "http://placehold.it/500x500"
 ---

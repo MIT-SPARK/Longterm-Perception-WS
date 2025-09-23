@@ -3,6 +3,7 @@ id: Overview
 name: Overview
 heading: Overview
 div_class: lead
+edition: 2025_ICRA
 # subheading: Will Catch Your Eye
 # image: "http://placehold.it/500x500"
 ---
