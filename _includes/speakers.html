@@ -2,10 +2,18 @@
 {% assign speakers = site.data[ed].speakers %}
 {% assign n = speakers | size %}
 
-{% assign lg_img_size = 3 %}
+{% assign lg_img_size = 4 %}
 {% if ed == '2026_ICRA' %}
-  {% assign lg_img_size = 2 %}
+  {% assign lg_img_size = 3 %}
 {% endif %}
+
+<style>
+/* Center speaker grid rows on large screens */
+@media (min-width: 1200px) {
+  .row.row-centered { display:flex; flex-wrap:wrap; justify-content:center; }
+  .row.row-centered > [class*="col-lg-"] { float:none; display:block; }
+}
+</style>
 
 <section class="team" id="team">
   <div class="container">
