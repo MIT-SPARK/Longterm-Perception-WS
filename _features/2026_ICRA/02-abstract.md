@@ -13,7 +13,7 @@ Autonomy in highly dynamic human-centric real-world environments is a crucial ch
 </span>
 
 <span style="font-size:1.1em;">
-After the large successes of the first Long-Term Perception (LTP): “What do Robots Need?” and “Standing the Test of Time” workshops at IROS’24, we are joining forces to bring together researchers across communities from Robotics, Computer Vision (CV), and Machine Learning (ML) on the LTP problem. The goal of the workshop is to i) illustrate the different facets, applications, interpretations, and most recent advances in LTP, ii) bring to together a community to unify terms, ideas, and spark new connections, iii) discuss emerging techniques, core challenges, and set the direction of research to address them in the coming years.
+After the large successes of the first Long-Term Perception (LTP): <a href='{{ site.baseurl }}/2024_IROS/'>“What do Robots Need?”</a> and <a href='https://montrealrobotics.ca/test-of-time-workshop/'>“Standing the Test of Time”</a> workshops at IROS’24, we are joining forces to bring together researchers across communities from Robotics, Computer Vision (CV), and Machine Learning (ML) on the LTP problem. The goal of the workshop is to i) illustrate the different facets, applications, interpretations, and most recent advances in LTP, ii) bring to together a community to unify terms, ideas, and spark new connections, iii) discuss emerging techniques, core challenges, and set the direction of research to address them in the coming years.
 </span>
 
 <span style="font-size:1.1em;">
