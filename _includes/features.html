@@ -4,21 +4,21 @@
 <main>
   {% for feature in feats %}
     {% if feature.id %}
-      {% unless feature.relative_path contains '/not_needed/'  %}
-      
-        <hr id='{{ feature.id }}'>
+      {% unless feature.relative_path contains '/not_needed/' %}
+        <!-- invisible anchor offset by nav height -->
+        <a id="{{ feature.id }}" style="display:block; position:relative; top:-120px; visibility:hidden;"></a>
 
-        <section id='section-{{ feature.id }}'>
+        <section class="feature-section">
           {% if my_variable != blank %}
-          <img class='{% cycle 'pull-right', 'pull-left' %}' src='{{ feature.image }}'>
+            <img class='{% cycle 'pull-right', 'pull-left' %}' src='{{ feature.image }}'>
           {% endif %}
-          <a id="{{ feature.id }}"></a>
           <h2>{{ feature.heading }}<br /><span>{{ feature.subheading }}</span></h2>
-          <div {% if feature.div_class != nil And feature.div_class != "" %} class='{{feature.div_class}}' {% endif %}>{{ feature.content }}</div>
+          <div{% if feature.div_class != nil and feature.div_class != "" %} class='{{ feature.div_class }}'{% endif %}>
+            {{ feature.content }}
+          </div>
         </section>
+        <hr>
       {% endunless %}
     {% endif %}
   {% endfor %}
-
-  <hr>
 </main>

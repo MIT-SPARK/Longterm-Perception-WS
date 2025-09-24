@@ -7,7 +7,7 @@
 {%- endcomment -%}
 {%- capture sitetitle -%}
   {%- if ed == '2024_IROS' -%}Longterm-Perception@IROS2024
-  {%- elsif ed == '2025_ICRA' -%}Longterm-Perception@ICRA2025
+  {%- elsif ed == '2026_ICRA' -%}Longterm-Perception@ICRA2025
   {%- else -%}{{ site.sitename | default: site.title }}
   {%- endif -%}
 {%- endcapture -%}
@@ -65,7 +65,7 @@
       <div class='nav-row nav-top'>
         <a class='navbar-brand' href='#'>{{ sitetitle | strip }}</a>
         <ul class='nav editions-nav'>
-          <li><a href='{{ site.baseurl }}/'>Latest</a></li>
+          <li><a href='{{ site.baseurl }}/'>Latest: ICRA 2026</a></li>
           <li><a href='{{ site.baseurl }}/2024_IROS/'>IROS 2024</a></li>
         </ul>
       </div>

@@ -1,11 +1,17 @@
-{% assign ed = page.edition | default: '2025_ICRA' %}
+{% assign ed = page.edition | default: '2026_ICRA' %}
 {% assign speakers = site.data[ed].speakers %}
+{% assign n = speakers | size %}
+
+{% assign lg_img_size = 3 %}
+{% if ed == '2026_ICRA' %}
+  {% assign lg_img_size = 2 %}
+{% endif %}
 
 <section class="team" id="team">
   <div class="container">
     <div class="row row-centered">
       {% for member in speakers %}
-      <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 col-centered">
+      <div class="col-lg-{{lg_img_size}} col-md-3 col-sm-4 col-xs-6 col-centered">
         <div class="box">
           <div class="image">
             <img src="{{ ed | append: member.image | relative_url }}" alt="{{ member.name }}" class="img-responsive">

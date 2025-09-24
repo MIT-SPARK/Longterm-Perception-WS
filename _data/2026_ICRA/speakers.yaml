@@ -1,0 +1,34 @@
+- name: John Leonard
+  image: /assets/images/John.jpeg
+  web: https://marinerobotics.mit.edu/index.html
+  affiliation: Massachusetts Institute of Technology
+
+- name: Ayoung Kim
+  image: /assets/images/ayoung.png
+  web: https://ayoungk.github.io/
+  affiliation: Seoul National University
+
+- name: Andrey Rudenko
+  image: /assets/images/andrey.jpeg
+  web: https://rudenkoandrey.github.io/
+  affiliation: Technical University of Munich
+
+- name: Steven Waslander
+  image: /assets/images/steven.jpeg
+  web: https://www.trailab.utias.utoronto.ca/steven-waslander
+  affiliation: University of Toronto
+
+- name: Sonia Chernova
+  image: /assets/images/sonia.jpeg
+  web: https://faculty.cc.gatech.edu/~chernova/
+  affiliation: Georgia Institute of Technology
+
+- name: Abhinav Valada
+  image: /assets/images/abhinav.jpeg
+  web: https://rl.uni-freiburg.de/people/valada
+  affiliation: University of Freiburg
+
+- name: Thomas Eppenberger
+  image: /assets/images/thomas.jpeg
+  web: https://www.linkedin.com/in/thomaseppenberger/?originalSubdomain=ch
+  affiliation: Sevensense
