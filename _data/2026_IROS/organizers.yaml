@@ -48,3 +48,14 @@
   image: /assets/images/liam.png
   web: https://liampaull.ca/
   affiliation: Université de Montréal and Mila
+
+- name: Giseop Kim
+  image: /assets/images/Giseop.png
+  web: https://sites.google.com/view/giseopkim/home
+  affiliation: Daegu Gyeongbuk Institute of Science and Technology
+
+
+- name: Teresa Vidal-Calleja
+  image: /assets/images/Teresa.jpeg
+  web: https://profiles.uts.edu.au/Teresa.VidalCalleja
+  affiliation: University of Technology Sydney
