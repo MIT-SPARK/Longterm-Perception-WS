@@ -3,7 +3,7 @@ id: call-for-participation
 name: Call for Participation
 heading: Call for Participation
 div_class: lead
-edition: 2026_ICRA
+edition: 2026_IROS
 # subheading: Will Catch Your Eye
 # image: "http://placehold.it/500x500"
 ---
@@ -12,10 +12,10 @@ We invite contributions to the workshop in 3 tracks. All accepted submissions wi
 
 - <strong><span style="font-size:1.2em;">Ideas Track</span></strong>
     - <strong>Aim</strong>: This track supports original contributions that advance the state of the art in LTP. Submissions must present work that has not been previously submitted to other venues or workshops.
-    - <strong>Format</strong>: 2-4+N page short papers. Submissions must follow the IEEE ICRA template [https://ras.papercept.net/conferences/support/tex.php]. Papers are 2 to 4 pages, excluding references.
+    - <strong>Format</strong>: 2-4+N page short papers. Submissions must follow the IEEE IROS template [https://ras.papercept.net/conferences/support/tex.php]. Papers are 2 to 4 pages, excluding references.
     - <strong>Review Criteria</strong>: As a service to authors, ideas submissions will receive thorough review and detailed feedback from the committee.Evaluation criteria are Relevance to the topics of the workshop, Recency and novelty, Clarity of presentation, Technical Quality, and  Strength of results (i.e., the results show promise for early stage work, the (planned) experimental setup is adequate)
 - <strong><span style="font-size:1.2em;">Showcase Track</span></strong>
-    - <strong>Aim</strong>: This track is open to work previously published that are relevant to the discussion at the workshop, and aims to foster author discussion and enrich the diversity of content at the workshop. Recent ICRA’26 papers are eligible and encouraged.
+    - <strong>Aim</strong>: This track is open to work previously published that are relevant to the discussion at the workshop, and aims to foster author discussion and enrich the diversity of content at the workshop. Recent IROS’26 papers are eligible and encouraged.
     - <strong>Format</strong>: A poster (PDF), and DOI where available for previously published material.
     - <strong>Review Criteria</strong>: Showcase submissions will be primarily reviewed for relevance to the workshop and recency, and likelihood to engage discussion.
 - <strong><span style="font-size:1.2em;">Demo Track</span></strong>
@@ -58,6 +58,6 @@ We provide two submission cycles: i) an early bird submission allows authors who
 | March 15   | Early Bird Decision Notification   |
 | May 1 | Regular Submissions Due       |
 | May 15 | Regular Decision Notification       |
-| June 1-5 | Workshop at ICRA in Vienna!      |
+| June 1-5 | Workshop at IROS in Vienna!      |
 
 <!-- <strong>Submission Website:</strong> TBD -->

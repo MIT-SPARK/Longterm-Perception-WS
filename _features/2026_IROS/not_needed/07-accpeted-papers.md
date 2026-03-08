@@ -3,7 +3,7 @@ id: accepted-papers
 name: Accepted Papers
 heading: Accepted Papers
 div_class: lead
-edition: 2026_ICRA
+edition: 2026_IROS
 # subheading: Will Catch Your Eye
 # image: "http://placehold.it/500x500"
 ---

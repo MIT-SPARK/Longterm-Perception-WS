@@ -1,9 +1,9 @@
-{% assign ed = page.edition | default: '2026_ICRA' %}
+{% assign ed = page.edition | default: '2026_IROS' %}
 {% assign speakers = site.data[ed].speakers %}
 {% assign n = speakers | size %}
 
 {% assign lg_img_size = 4 %}
-{% if ed == '2026_ICRA' %}
+{% if ed == '2026_IROS' %}
   {% assign lg_img_size = 3 %}
 {% endif %}
 

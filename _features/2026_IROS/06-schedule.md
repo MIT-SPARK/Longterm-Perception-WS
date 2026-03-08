@@ -3,7 +3,7 @@ id: Schedule
 name: Schedule
 heading: Schedule
 div_class: lead
-edition: 2026_ICRA
+edition: 2026_IROS
 ---
 
 <table>
