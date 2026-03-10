@@ -53,11 +53,11 @@ We provide two submission cycles: i) an early bird submission allows authors who
 <div style="height: 10px;"></div> 
 
 |----------------|------------------------------|
-| January 1         | Call for Submissions       |
-| March 1 | Early Bird Submissions Due |
-| March 15   | Early Bird Decision Notification   |
-| May 1 | Regular Submissions Due       |
-| May 15 | Regular Decision Notification       |
-| June 1-5 | Workshop at IROS in PITTSBURGH!      |
+| June 16         | Call for Submissions       |
+| July 12 | Early Bird Submissions Due |
+| July 26   | Early Bird Decision Notification   |
+| August 30 | Regular Submissions Due       |
+| September 13 | Regular Decision Notification       |
+| September 27- October 1 | Workshop at IROS in PITTSBURGH!      |
 
 <!-- <strong>Submission Website:</strong> TBD -->
