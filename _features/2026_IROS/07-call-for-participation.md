@@ -28,7 +28,7 @@ We invite contributions to the workshop in 3 tracks. All accepted submissions wi
 ### <strong>Submission information</strong>
 All accepted submissions will be presented at the workshop and considered for the best contribution award, where 3 finalists will be selected for 5-minute plenary presentations. While all submissions are eligible, novelty will be considered in finalist selection and preference given to “Ideas” submissions.
 Submissions are single blind and will be reviewed by members of the (extended) workshop committee.
-Submissions will be received via [OpenReview](empty).
+Submissions will be received via [OpenReview](https://openreview.net/group?id=IEEE.org/IROS/2026/Workshop/LTP).
 
 <div style="height: 10px;"></div> 
 
@@ -58,6 +58,6 @@ We provide two submission cycles: i) an early bird submission allows authors who
 | July 26   | Early Bird Decision Notification   |
 | August 30 | Regular Submissions Due       |
 | September 13 | Regular Decision Notification       |
-| September 27- October 1 | Workshop at IROS in PITTSBURGH!      |
+| September 27 | Workshop at IROS in PITTSBURGH!      |
 
 <!-- <strong>Submission Website:</strong> TBD -->
