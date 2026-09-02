@@ -1,0 +1,29 @@
+{% assign ed = page.edition | default: '2026_IROS' %}
+{% assign sponsors = site.data[ed].sponsors %}
+
+<style>
+/* Sponsor logos: normalize on height so different aspect ratios read evenly */
+.sponsors { display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:40px 60px; margin:30px 0 10px; }
+/* max-width/min-width let a wide logo shrink instead of overflowing on small screens */
+.sponsors a { display:block; max-width:100%; min-width:0; }
+/* object-fit guards the aspect ratio if a wide logo gets clamped by max-width */
+main .sponsors img { max-width:100%; width:auto; height:120px; object-fit:contain; margin:0; transition:opacity .15s ease-in-out; }
+.sponsors a:hover img { opacity:.75; }
+
+@media (max-width:768px) {
+  .sponsors { gap:28px 36px; margin:22px 0 6px; }
+  /* size off the viewport, not the container: the site's nested .container
+     elements overflow on small screens, so % widths clamp unreliably here */
+  main .sponsors img { height:auto; width:78vw; max-width:340px; }
+}
+</style>
+
+<section class="sponsors-section">
+  <div class="sponsors">
+    {% for sponsor in sponsors %}
+      <a href="{{ sponsor.web }}" target="_blank" rel="noopener" title="{{ sponsor.name }}">
+        <img src="{{ ed | append: sponsor.image | relative_url }}" alt="{{ sponsor.name }}">
+      </a>
+    {% endfor %}
+  </div>
+</section>
