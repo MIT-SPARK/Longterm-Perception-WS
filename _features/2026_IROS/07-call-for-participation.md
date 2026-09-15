@@ -58,6 +58,7 @@ We provide two submission cycles: i) an early bird submission allows authors who
 | July 26   | Early Bird Decision Notification   |
 | August 30 | Regular Submissions Due       |
 | September 13 | Regular Decision Notification       |
+| September 23 | Camera Ready Deadline       |
 | September 27 | Workshop at IROS in PITTSBURGH!      |
 
 <!-- <strong>Submission Website:</strong> TBD -->
