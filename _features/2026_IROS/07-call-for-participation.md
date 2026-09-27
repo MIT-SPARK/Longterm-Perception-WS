@@ -29,6 +29,7 @@ We invite contributions to the workshop in 3 tracks. All accepted submissions wi
 All accepted submissions will be presented at the workshop and considered for the best contribution award, where 3 finalists will be selected for 5-minute plenary presentations. While all submissions are eligible, novelty will be considered in finalist selection and preference given to “Ideas” submissions.
 Submissions are single blind and will be reviewed by members of the (extended) workshop committee.
 Submissions will be received via [OpenReview](https://openreview.net/group?id=IEEE.org/IROS/2026/Workshop/LTP).
+Camera-ready papers are available on [OpenReview](https://openreview.net/group?id=IEEE.org/IROS/2026/Workshop/LTP#tab-accept-ideas).
 
 <div style="height: 10px;"></div> 
 
